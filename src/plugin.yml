@@ -1,0 +1,16 @@
+main: Flight.Main
+name: ClaimFlight
+version: 1.0
+author: krissy
+api-version: 1.16
+
+permissions:
+  claimflight:
+    restrictedfly:
+      description: restricts flight only to claims
+      default: false
+    unrestrictedfly:
+      description: plugin will ignore anyone with this permission
+      default: op
+
+depend: [GriefPrevention]
