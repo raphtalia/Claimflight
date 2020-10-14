@@ -1,7 +1,7 @@
 main: Flight.Main
 name: ClaimFlight
 version: 1.0
-author: krissy
+author: nezuko
 api-version: 1.16
 
 permissions:
